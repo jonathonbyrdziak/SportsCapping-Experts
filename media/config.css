@@ -1,0 +1,38 @@
+
+	div.byrdtabs {width:100%;clear:both;margin:20px 0;position:relative;float:left;}
+	.byrdtabs ul {width:100%;position:relative;float:left;margin:0 0 0 40px !important;}
+	.byrdtabs ul li {position:relative;float:left;}
+	.byrdtabs ul li a {width:130px;cursor:pointer;}
+	.paypalinfo {border-bottom:1px solid #eee;font-size:10px;padding-bottom:15px;}
+	div table label {font-weight:bold;}
+	textarea {width:95%;height:100px;}
+	textarea.large {height:400px;}
+
+	.comments {text-align:center;}
+	.commentlist {width:90%;}
+	.commentlist .thread-even {background-color:#eee;}
+	.commentlist .thread-odd {background-color:#efefef;}
+	.commentlist .comment {display:block;height:auto;padding:7px;border:1px solid #ccc;margin:5px;border-left:5px solid #314c5f;border-bottom:1px solid #2f3235;}
+	
+	.commentlist .comment-author {vertical-align:middle;font-size:20px;font-weight:bold;color:#2f3235;text-transform:Capitalize;width:300px;position:relative;float:left;}
+	.commentlist .comment-meta {width:300px;position:relative;float:left;text-transform:lowercase;}
+	.commentlist .comment-meta a {color:#808180;font-size:10px;text-decoration:none;}
+	.commentlist .comment p {display:block;clear:both;padding-left:20px;}
+	
+	.editinline {border:0px;background:none;}
+	.formelement {cursor:nw-resize;}
+	#workareaforms {padding:10px;border:1px dashed red;margin:20px 0;}
+	
+	#resultsofsaveform, #saveformbutton, #formtitle, #editformlabel {position:relative;float:left;margin-right:25px;}
+
+	.fc_toolbar{border-top:5px solid #555;}
+	.toolbar_button{padding:5px;text-decoration:none;border-bottom:2px solid #555;}
+	.activeButton{background:#ccc;font-weight:bold;}
+	.toolbox{margin: 10px 0 0 0;}
+	.form_label{padding:3px 10px 3px 3px;width:200px;text-align:right;font-weight:bold;font-size:10pt;display:block;position:relative;float:left;}
+	.form_block{padding:5px;clear:both;}
+	
+	.form_small{width:75px;}
+	.form_medium{width:250px;}
+	.form_large{width:450px;}
+

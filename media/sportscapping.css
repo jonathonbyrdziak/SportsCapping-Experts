@@ -1,0 +1,1245 @@
+/* ------------------------- COMMON ------------------------- */
+BODY {
+	font-family: arial, verdana, sans-serif;
+}
+
+.header TH {
+	font-size: 12px;
+	color: #fff; 
+	background-color: #666; 
+	background-repeat: repeat-x;
+	padding: 5px 10px 5px 10px;
+	text-align: left;
+}
+.subheader TH {
+	font-size: 12px;
+	color: #fff; 
+	background-color: #aaa; 
+	padding: 5px;
+	text-align: center;
+}
+.data TH {
+	font-size: 12px;
+	background-color: #eee;
+	padding: 5px;
+}
+
+/* --------------------- SERVICE_PACKAGES --------------------- */
+#service_packages {
+	width: 540px;
+	margin: 0;
+	padding: 10px 10px 0 10px;
+	background-color: #fff;
+}
+
+/* ------------------------ TOP_TRENDS ------------------------ */
+#top_trends TABLE {
+	font-size: 12px;
+	width: 540px;
+	margin: 0 0 20px 15px;
+}
+#top_trends A {
+	font-size: 12px;
+}
+#top_trends .subheader TH {
+	border-bottom: solid 1px #ddd;
+}
+#top_trends .data TH {
+	width: 30%;
+	text-align: left;
+	padding-left: 25px;
+	border-left: solid 1px #ddd;
+	border-bottom: solid 1px #ddd;
+}
+#top_trends .data TD {
+	text-align: left;
+	padding: 0 10px 0 40px;
+}
+#top_trends TD {
+	background-color: #fff;
+	text-align: center;
+	border-right: solid 1px #ddd;
+	border-bottom: solid 1px #ddd;
+	font-size: 12px;
+}
+#top_trends .service_stats {
+	border: solid 1px #ddd;
+}
+
+/* ------------------------ SHOW_TREND ------------------------ */
+#show_trend TABLE {
+	font-size: 12px;	
+	width: 540px;
+	margin: 0 0 20px 0;
+	border: solid 1px #ddd;	
+}
+
+#show_trend TD {
+	background-color: #fff;
+	text-align: left;
+	font-size: 12px;
+	padding: 5px 5px 5px 10px;
+	line-height: 175%;
+}
+
+/* ------------------------ SHOW_PREMIUM_PICKS_TABLE ------------------------ */
+#show_premium_picks_table TABLE {
+	font-size: 12px;
+	width: 540px;
+	margin: 0 0 20px 0;
+	padding: 0;
+}
+#show_premium_picks_table .data TD {
+	margin: 0;
+	padding: 0;
+}
+
+/* ------------------------ SHOW_PREMIUM_PICKS ------------------------ */
+#show_premium_picks TABLE {
+	font-size: 12px;	
+	width: 540px;
+	margin: 1px 0 0 0;
+	border: solid 1px #ddd;	
+	border-top: solid 2px #666;	
+}
+#show_premium_picks .header TH {
+	background-color: #eee; 
+	background-image:  none;
+	text-align: left;
+	font-size: 14px;
+	color: #000;
+	padding: 5px 5px 5px 5px;
+	margin: 0;
+}
+#show_premium_picks TH.button {
+	width: 100px;
+	border: 0px solid #ddd;
+	background-color: #eee; 	
+	padding-bottom: 25px;
+}
+#show_premium_picks TD {
+	background-color: #fff;
+	text-align: left;
+	font-size: 12px;
+}
+#show_premium_picks TD.event { 
+	text-align: left; 
+	padding: 5px 5px 30px 5px;
+}
+#show_premium_picks INPUT {
+	background: #000;
+	color: #fff;
+	background-image: url(/images/boxes/title-bg.gif);
+	background-repeat: repeat-x;
+	padding-left: 5px;
+	padding-right: 0px;
+	margin: 0px;
+	margin-bottom: 0px;
+	width: 100px;
+}
+#show_premium_picks INPUT.guaranteed {
+	height: 60px;
+}
+#show_premium_picks INPUT.non_guaranteed {
+	height: 45px;
+}
+
+/* ------------------------ SHOW_PICKS ------------------------ */
+#show_picks TABLE {
+	font-size: 12px;
+	width: 540px;
+	margin: 0 0 20px 0;
+}
+#show_picks .header TH {
+	color: #888; 
+	background-color: #fff; 
+	background-image:  none;
+	text-align: left;
+	padding: 0 5px 0 5px;
+}
+#show_picks .data TD {
+	background-color: #eee;
+	text-align: left;
+	font-size: 12px;
+	padding: 5px 10px 5px 5px;
+	border-top: solid 2px #666;	
+}
+#show_picks .data .event {
+	border-left: solid 1px #ddd;	
+}
+#show_picks .data .starts {
+	border-right: solid 1px #ddd;	
+}
+#show_picks .comment {
+	text-align: left;
+	padding: 5px 5px 10px 5px;
+	font-size: 12px;
+	border: solid 1px #ddd;	
+}
+#show_picks TD.event { 
+	text-align: left; 
+	padding: 5px 5px 10px 10px; 
+}
+#show_picks TD.choice { 
+}
+#show_picks TD.starts { 
+	width: 70px;
+}
+#show_picks TD.comment, 
+#show_picks TD.show_picks_comment { 
+	background-color: #fff;
+	text-align: left;	
+}
+
+/* ------------------------ TOP_RATING_MENU	 ------------------------ */
+#top_rating_menu {
+	margin: 0 0 15px 15px;
+}
+
+/* ------------------------ SERVICE_TOP_RATING_SHORT ------------------------ */
+#service_top_rating_short TABLE {
+	font-size: 11px;
+	width: 160px;
+}
+#service_top_rating_short TD {
+	font-size: 11px;
+	text-align: center;
+	border: solid 1px #ddd;
+}
+#service_top_rating_short .data TH { 
+	font-size: 11px;
+	text-align: left;
+	width: 130px; 
+}
+#service_top_rating_short .data TH.name { 
+	text-align: left;
+	width: 130px; 
+}
+#service_top_rating_short .data TD.unit { 
+	width: 70px; 
+}
+#service_top_rating_short .service_top_rating {
+	border: solid 1px #ddd;
+}
+
+/* ------------------------ SERVICE_TOP_RATING_FULL ------------------------ */
+#service_top_rating_full TABLE {
+	font-size: 12px;
+	width: 540px;
+	margin: 0 0 15px 15px;
+}
+#service_top_rating_full .header TH {
+	text-align: center;
+}
+#service_top_rating_full .subheader TH {
+	text-align: center;
+}
+#service_top_rating_full .data TH {
+	width: 1%;
+}
+#service_top_rating_full TD {
+	text-align: center;
+	border: solid 1px #ddd;
+	font-size: 12px;
+}
+#service_top_rating_full .data TH.name { 
+	text-align: left;
+	width: 130px; 
+	padding-left: 15px;
+}
+#service_top_rating_full .data TD.unit { 
+	width: 70px; 
+}
+#service_top_rating_full .service_top_rating {
+	border: solid 1px #ddd;
+}
+
+/* ------------------------ SERVICE_STATS ------------------------ */
+#service_stats TABLE {
+	font-size: 12px;
+	width: 540px;
+	margin: 0 0 20px 0;
+}
+#service_stats .subheader TH {
+	text-align: center;
+	color: #FFF; 
+	background-color: #AAA;
+	border-bottom: solid 1px #ddd;
+}
+#service_stats .data TH {
+	width: 1%;
+	border-left: solid 1px #ddd;
+	border-bottom: solid 1px #ddd;
+}
+#service_stats TD {
+	background-color: #fff;
+	text-align: center;
+	border-right: solid 1px #ddd;
+	border-bottom: solid 1px #ddd;
+	font-size: 12px;
+}
+#service_stats .service_stats {
+	border: solid 1px #ddd;
+}
+
+/* ------------------------ ONE_FREE_PICK ------------------------ */
+#one_free_pick TABLE {
+	font-size: 12px;
+	width: 540px;
+	margin: 0 0 20px 0;
+}
+#one_free_pick .data TH, #one_free_pick .subheader_one_pick {
+	color: #888; 
+	background-color: #fff; 	
+	text-align: left;
+	padding: 5px 10px 5px 10px;
+}
+
+#one_free_pick .subheader {
+	text-align: left;
+}
+
+#one_free_pick .data TD {
+	font-size: 12px;
+	background-color: #eee; 
+	padding: 5px 10px 5px 5px;
+	border-top: solid 2px #666;
+}
+#one_free_pick .data .event {
+	border-left: solid 1px #ddd;
+}
+#one_free_pick .data .starts {
+	border-right: solid 1px #ddd;
+}
+#one_free_pick .comment {
+	font-size: 12px;
+	background-color: #fff; 
+	padding: 5px 10px 15px 5px;
+	border-left: solid 1px #ddd;
+	border-right: solid 1px #ddd;
+	border-bottom: solid 1px #ddd;
+}
+#one_free_pick .one_free_pick {
+	border: solid 1px #ddd;
+}
+
+/* ------------------------ PAST_PICKS ------------------------ */
+#past_picks TABLE {
+	font-size: 12px;
+	width: 540px;
+	margin: 0 0 20px 0;
+}
+#past_picks .data TH {
+	color: #888; 
+	background-color: #fff; 	
+	text-align: left;
+	padding: 5px 10px 5px 10px;
+}
+#past_picks .data TD {
+	background-color: #eee; 
+	padding: 5px 10px 5px 5px;
+	border-top: solid 2px #666;
+}
+#past_picks .data .event {
+	border-left: solid 1px #ddd;
+}
+#past_picks .data .wl {
+	border-right: solid 1px #ddd;
+}
+#past_picks .comment TD {
+	background-color: #fff; 
+	padding: 5px 10px 30px 5px;
+	border-left: solid 1px #ddd;
+	border-right: solid 1px #ddd;
+	border-bottom: solid 1px #ddd;
+}
+#past_picks .bottom_comment TD {
+	background-color: #fff; 
+	padding: 0px 0px 5px 0px;
+}
+#past_picks TD {
+	font-size: 12px;
+	padding: 5px 10px 5px 10px;
+}
+
+/* ------------------------ SERVICE_INFO ------------------------ */
+#service_info TABLE {
+	font-size: 12px;
+	background-color: #fff;
+	border: solid 1px #ddd;
+	width: 540px;
+	margin: 0 0 20px 0;
+}
+#service_info TD {
+	font-size: 12px;
+}
+#service_info TD.header {
+	padding: 2px 5px 5px 10px;
+}
+#service_info .header A {
+	color: #fff; 
+}
+#service_info TD.description {
+	padding: 7px 5px 10px 10px;
+}
+#service_info TD.image {
+	background-color: #eee;
+	margin: 0;
+	padding: 0;
+	text-align: left;
+}
+#service_info IMG {
+	margin: 3px;	
+	padding: 0px;
+}
+#service_info H1 {
+	font-size: 18px;
+	margin: 0 0 20px 0;
+}
+
+
+
+
+
+/* ------------- Overall containers ------------- */
+.gen_schedule_container 	{ width: 580px; }
+#schedule_full_scores 		{ width: 615px; }
+
+
+/* -------------- Overall headers -------------- */
+.status_header {
+	text-align: left;
+}
+.gen_schedule_record_header {
+	text-align: left;
+}
+.gen_schedule_time_header {
+	text-align: left;
+	width: 65px;
+}
+.gen_schedule_status_header {
+	text-align: left;
+}
+
+/* ------------- gen_schedule_block ------------- */
+#gen_schedule_block {
+	clear: both;
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	font-size: 10px; 
+}
+#gen_schedule_block TD, 
+#gen_schedule_block A { 
+	font-size: 12px; 
+}
+#gen_schedule_block TH {
+	padding-top: 10px;
+	padding-bottom: 0px;
+	font-size: 13px;
+}
+
+#gen_schedule_block DIV.schedule_game {
+	width: 275px;
+	float: left;
+}
+
+#gen_schedule_block DIV.one_schedule_game {
+	width: 275px;
+	margin-bottom: 25px;
+}
+
+/* ------------- schedule_game_block ------------- */
+#gen_schedule_block DIV.schedule_game_block {
+	margin-bottom: 7px;
+	margin-top: 5px;	
+	padding: 1px;
+	border: #888 1px solid;
+	background-color: #eee;
+}
+
+#gen_schedule_block DIV.schedule_game_block TABLE {	
+	width: 271px;
+	height: 75px;
+	BORDER-RIGHT: #c8c8c8 1px solid;
+	BORDER-TOP: #c8c8c8 1px solid;
+}
+
+#gen_schedule_block DIV.schedule_game_block TABLE TH,
+#gen_schedule_block DIV.schedule_game_block TABLE TD {
+	padding: 0 4px 0 4px;
+	font-size: 10px;
+	BORDER-LEFT: #c8c8c8 1px solid;
+	BORDER-BOTTOM: #c8c8c8 1px solid;
+	background-color: #fff;
+}
+#gen_schedule_block DIV.schedule_game_block TABLE TH {
+	background-color: #000;
+	background-image:  url(/images/boxes/title-bg.gif);
+	background-repeat: repeat-x;
+	COLOR: #fff;
+	font-size: 10px;
+	padding: 2px;
+}
+
+
+/* ------------- away_team, home_team ------------- */
+#gen_schedule_block DIV.schedule_game_block .away_team, 
+#gen_schedule_block DIV.schedule_game_block .home_team {
+	background-color: #fff;	
+	line-height: 150%;
+	padding-top: 2px;
+	padding-bottom: 4px;
+	padding-right: 0;
+	font-family: Arial, Verdana, Helvetica, sans-serif; 
+	font-size: 11px;
+}
+
+#gen_schedule_block DIV.schedule_game DIV.schedule_game_block .away_team A,
+#gen_schedule_block DIV.schedule_game DIV.schedule_game_block .home_team A  {
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	font-size: 10px;
+}
+
+#gen_schedule_block DIV.schedule_game_block .away_team {
+	border-bottom: none;
+} 
+
+
+/* ------------- away_line, home_line ------------- */
+#gen_schedule_block DIV.schedule_game_block .away_line,
+#gen_schedule_block DIV.schedule_game_block .home_line {
+	text-align: center;
+	width: 35px;
+	line-height: 150%;
+	padding-top: 2px;
+	padding-bottom: 4px;
+	padding-left: 0;
+	font-family: Arial, Verdana, Helvetica, sans-serif; 
+	font-size: 11px;
+}
+
+#gen_schedule_block DIV.schedule_game_block .away_line {
+	border-bottom: none;
+} 
+
+
+/* ------------- away_data_score, home_data_score ------------- */
+#gen_schedule_block DIV.schedule_game_block .away_data_score,
+#gen_schedule_block DIV.schedule_game_block .home_data_score {
+	text-align: center;
+	width: 30px;
+	line-height: 185%;
+	padding-top: 2px;
+	padding-bottom: 4px;
+}
+
+#gen_schedule_block DIV.schedule_game_block .away_data_score_live,
+#gen_schedule_block DIV.schedule_game_block .home_data_score_live {
+	text-align: center;
+	background: #ECECE4;
+	background: #FCBDB0;
+	width: 30px;
+	line-height: 185%;
+	padding-top: 2px;
+	padding-bottom: 4px;
+}
+
+#gen_schedule_block DIV.schedule_game_block .away_data_score_final,
+#gen_schedule_block DIV.schedule_game_block .home_data_score_final {
+	text-align: center;
+	background: #ECECE4;
+	width: 30px;
+	line-height: 185%;
+	padding-top: 2px;
+	padding-bottom: 4px;
+}
+
+#gen_schedule_block DIV.schedule_game_block .away_data_score,
+#gen_schedule_block DIV.schedule_game_block .away_data_score_live,
+#gen_schedule_block DIV.schedule_game_block .away_data_score_final {
+	border-bottom: none;
+} 
+
+
+/* ------------- total_over, total_under ------------- */
+#gen_schedule_block DIV.schedule_game_block .total {
+	text-align: center;
+}
+#gen_schedule_block DIV.schedule_game_block .total_over {
+	text-align: center;
+	background-color: #ddf;
+}
+#gen_schedule_block DIV.schedule_game_block .total_under {
+	text-align: center;
+	background-color: #fdd;
+}
+
+
+/* ----------------------- winner, loser ----------------------- */
+#gen_schedule_block DIV.schedule_game_block .winner_name {
+	padding: 2px 1px 2px 1px;
+	/*border: 2px #0a0 solid;
+	border-right: none;*/
+	background: #dfd;
+}
+#gen_schedule_block DIV.schedule_game_block .winner_line {
+	padding: 2px 1px 2px 1px;
+	/*border: 2px #0a0 solid;
+	border-left: none;*/
+	background: #dfd;
+}
+#gen_schedule_block DIV.schedule_game_block .loser_name {
+	padding: 0 1px 0 1px;
+	border-left: 2px #fff solid;
+}
+#gen_schedule_block DIV.schedule_game_block .loser_line {
+	padding: 0 1px 0 1px;
+	border-left: 2px #fff solid;
+}
+
+
+/* ------------------------------------------------------------ */
+#gen_schedule_block DIV.schedule_game_block P {
+	margin: 0;
+	padding: 0px;
+	padding-bottom: 3px;
+	font-size: 11px;
+}
+#gen_schedule_block DIV.schedule_game_block A {
+	font-weight: bold;	
+	TEXT-DECORATION: underline
+}
+
+#gen_schedule_block DIV.schedule_game_block_links {
+	text-align: left;
+	font-weight: normal;
+	font-size: 10px;
+	margin-top : 6px;
+	margin-bottom : 0px;
+	padding-left: 7px;
+	text-decoration: none;
+}
+#gen_schedule_block DIV.schedule_game_block_links A {
+	font-weight: bold;	
+	text-decoration: none;
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	font-size: 10px; 
+	color: #999;
+}
+
+.schedule_make_pick {
+	font-weight: bold;
+	padding: 2px;
+	LINE-HEIGHT: 10px;  
+	BORDER: #c8c8c8 1px solid;
+	background: #7E0003;
+	color: #ffffff;		
+	background-image:  url(/images/boxes/title-bg.gif);
+	background-repeat: repeat-x;
+	text-decoration: none;
+}
+
+#sports_calendar {
+	border: #c8c8c8 1px solid;
+	margin-right: 2px;
+	width: 175px;
+}
+
+.sports_calendar_header {
+	background-color: #DFDFDF;
+	color: #222222;
+}
+.sports_calendar_week_days {
+	background-color: #DFDFDF;
+	color: #222222;
+}
+
+#sports_calendar_block {
+	font-size: 11px;
+	padding: 3px;
+}
+
+#sports_calendar DIV.sports_calendar_block A {
+	font-weight: bold;
+}
+
+#sports_calendar TABLE {
+	font-size: 11px;
+	width: 170px;
+	border-top: #c8c8c8 1px solid;
+	border-left: #c8c8c8 1px solid;
+}
+#sports_calendar TABLE TH {
+	font-size: 11px;
+	margin-top: 3px;
+	padding-top: 3px;
+	margin-bottom: 3px;
+	padding-bottom: 3px;
+}
+#sports_calendar A {
+	font-size: 11px;
+	font-weight: bold;
+}
+
+.sports_calendar_today {
+	font-weight: bold;
+	background-color: #DFDFDF;
+	color: #ffffff;
+}
+#sports_calendar .sports_calendar_today A{
+	color: #222222;
+}
+
+
+.sports_calendar_selected {
+	font-weight: bold;
+	background-color: #ECECE4;
+	color: #ffffff;
+}
+#sports_calendar .sports_calendar_selected A{
+	color: #222222;
+	text-decoration: underline;
+}
+
+
+#sports_calendar TABLE TD {
+	font-size: 11px;
+	text-align: center;
+	border-bottom: #c8c8c8 1px solid;
+	border-right: #c8c8c8 1px solid;
+}
+#sports_calendar TABLE TR.sports_calendar_week_days TD {
+	font-size: 11px;
+	font-weight: bold;
+}
+
+#schedule_full_scores {
+	margin-bottom: 25px;
+}
+
+#schedule_full_scores P {
+	text-align:right;
+}
+#schedule_full_scores A {
+	font-size: 11px;
+	color: blue;
+	text-decoration: underline;
+}
+
+#sports_data_select_sport {
+	font-size: 11px;
+	float: right;
+}
+
+#sports_data_select_sport A{
+	font-size: 11px;
+}
+
+.lower_title {
+	font-size: 18px; 
+	margin-bottom: 10px;
+	margin-top: 0;
+}
+
+.header_title {
+	font-size: 16px;
+}
+
+.back_button_custom {
+	text-align: center;
+	font-size: 11px;
+	font-weight: bold;
+	border: 3px double #cccccc;
+	/*width: auto;*/
+	width: 45px;
+	background: url(../images/button_bg.png) repeat-x;
+	padding: 0px 10px;
+	line-height: 20px;
+	margin: 1px 1px 25px 1px;
+}
+.back_button_custom A{
+	font-size: 11px;
+}
+
+
+/* ------------------------ PAST_PICKS ------------------------ */
+#past_picks TABLE {
+	font-size: 12px;
+	width: 540px;
+	margin: 0 0 20px 0;
+}
+#past_picks .data TH {
+	color: #888; 
+	background-color: #fff; 	
+	text-align: left;
+	padding: 5px 10px 5px 10px;
+}
+#past_picks .data TD {
+	background-color: #eee; 
+	padding: 5px 10px 5px 5px;
+	border-top: solid 2px #666;
+}
+#past_picks .capper_data TH {
+	color: #888; 
+	background-color: #eee; 	
+	text-align: left;
+	padding: 7px 10px 7px 10px;
+	border-top: solid 2px #666;
+}
+#past_picks .capper_data TD {
+	background-color: #eee; 
+	padding: 5px 10px 5px 5px;
+	border-top: solid 1px #ddd;
+}
+#past_picks .capper_data TD A {
+	font-size: 12px; 
+}
+#past_picks .data .event {
+	border-left: solid 1px #ddd;
+}
+#past_picks .data .wl {
+	border-right: solid 1px #ddd;
+}
+#past_picks .comment TD {
+	background-color: #fff; 
+	padding: 5px 10px 30px 5px;
+	border-left: solid 1px #ddd;
+	border-right: solid 1px #ddd;
+	border-bottom: solid 1px #ddd;
+}
+#past_picks .bottom_comment TD {
+	background-color: #fff; 
+	padding: 0px 0px 5px 0px;
+}
+#past_picks TD {
+	font-size: 12px;
+	padding: 5px 10px 5px 10px;
+}
+#past_picks #show_premium_picks .data TD{
+	background-color: #fff; 
+}
+
+
+/* ------------------------ SCHEDULE ------------------------ */
+.gen_schedule_container 	{ width: 580px; }
+#schedule_full_scores 		{ width: 615px; }
+
+
+/* -------------- Overall headers -------------- */
+.status_header {
+	text-align: left;
+}
+.gen_schedule_record_header {
+	text-align: left;
+}
+.gen_schedule_time_header {
+	text-align: left;
+	width: 65px;
+}
+.gen_schedule_status_header {
+	text-align: left;
+}
+
+/* ------------- gen_schedule_block ------------- */
+#gen_schedule_block {
+	clear: both;
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	font-size: 10px; 
+}
+#gen_schedule_block TD, 
+#gen_schedule_block A { 
+	font-size: 12px; 
+}
+#gen_schedule_block TH {
+	padding-top: 10px;
+	padding-bottom: 0px;
+	font-size: 13px;
+}
+
+#gen_schedule_block DIV.schedule_game {
+	width: 275px;
+	float: left;
+}
+
+#gen_schedule_block DIV.one_schedule_game {
+	width: 275px;
+	margin-bottom: 25px;
+}
+
+/* ------------- schedule_game_block ------------- */
+#gen_schedule_block DIV.schedule_game_block {
+	margin-bottom: 7px;
+	margin-top: 5px;	
+	padding: 1px;
+	border: #888 1px solid;
+	background-color: #eee;
+}
+
+#gen_schedule_block DIV.schedule_game_block TABLE {	
+	width: 271px;
+	height: 75px;
+	BORDER-RIGHT: #c8c8c8 1px solid;
+	BORDER-TOP: #c8c8c8 1px solid;
+}
+
+#gen_schedule_block DIV.schedule_game_block TABLE TH,
+#gen_schedule_block DIV.schedule_game_block TABLE TD {
+	padding: 0 4px 0 4px;
+	font-size: 10px;
+	BORDER-LEFT: #c8c8c8 1px solid;
+	BORDER-BOTTOM: #c8c8c8 1px solid;
+	background-color: #fff;
+}
+#gen_schedule_block DIV.schedule_game_block TABLE TH {
+	background-color: #000;
+	background-image:  url(/images/boxes/title-bg.gif);
+	background-repeat: repeat-x;
+	COLOR: #fff;
+	font-size: 10px;
+	padding: 2px;
+}
+
+
+/* ------------- away_team, home_team ------------- */
+#gen_schedule_block DIV.schedule_game_block .away_team, 
+#gen_schedule_block DIV.schedule_game_block .home_team {
+	background-color: #fff;	
+	line-height: 150%;
+	padding-top: 2px;
+	padding-bottom: 4px;
+	padding-right: 0;
+	font-family: Arial, Verdana, Helvetica, sans-serif; 
+	font-size: 11px;
+}
+
+#gen_schedule_block DIV.schedule_game DIV.schedule_game_block .away_team A,
+#gen_schedule_block DIV.schedule_game DIV.schedule_game_block .home_team A  {
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	font-size: 10px;
+}
+
+#gen_schedule_block DIV.schedule_game_block .away_team {
+	border-bottom: none;
+} 
+
+
+/* ------------- away_line, home_line ------------- */
+#gen_schedule_block DIV.schedule_game_block .away_line,
+#gen_schedule_block DIV.schedule_game_block .home_line {
+	text-align: center;
+	width: 35px;
+	line-height: 150%;
+	padding-top: 2px;
+	padding-bottom: 4px;
+	padding-left: 0;
+	font-family: Arial, Verdana, Helvetica, sans-serif; 
+	font-size: 11px;
+}
+
+#gen_schedule_block DIV.schedule_game_block .away_line {
+	border-bottom: none;
+} 
+
+
+/* ------------- away_data_score, home_data_score ------------- */
+#gen_schedule_block DIV.schedule_game_block .away_data_score,
+#gen_schedule_block DIV.schedule_game_block .home_data_score {
+	text-align: center;
+	width: 30px;
+	line-height: 185%;
+	padding-top: 2px;
+	padding-bottom: 4px;
+}
+
+#gen_schedule_block DIV.schedule_game_block .away_data_score_live,
+#gen_schedule_block DIV.schedule_game_block .home_data_score_live {
+	text-align: center;
+	background: #ECECE4;
+	background: #FCBDB0;
+	width: 30px;
+	line-height: 185%;
+	padding-top: 2px;
+	padding-bottom: 4px;
+}
+
+#gen_schedule_block DIV.schedule_game_block .away_data_score_final,
+#gen_schedule_block DIV.schedule_game_block .home_data_score_final {
+	text-align: center;
+	background: #ECECE4;
+	width: 30px;
+	line-height: 185%;
+	padding-top: 2px;
+	padding-bottom: 4px;
+}
+
+#gen_schedule_block DIV.schedule_game_block .away_data_score,
+#gen_schedule_block DIV.schedule_game_block .away_data_score_live,
+#gen_schedule_block DIV.schedule_game_block .away_data_score_final {
+	border-bottom: none;
+} 
+
+
+/* ------------- total_over, total_under ------------- */
+#gen_schedule_block DIV.schedule_game_block .total {
+	text-align: center;
+}
+#gen_schedule_block DIV.schedule_game_block .total_over {
+	text-align: center;
+	background-color: #ddf;
+}
+#gen_schedule_block DIV.schedule_game_block .total_under {
+	text-align: center;
+	background-color: #fdd;
+}
+
+
+/* ----------------------- winner, loser ----------------------- */
+#gen_schedule_block DIV.schedule_game_block .winner_name {
+	padding: 2px 1px 2px 1px;
+	/*border: 2px #0a0 solid;
+	border-right: none;*/
+	background: #dfd;
+}
+#gen_schedule_block DIV.schedule_game_block .winner_line {
+	padding: 2px 1px 2px 1px;
+	/*border: 2px #0a0 solid;
+	border-left: none;*/
+	background: #dfd;
+}
+#gen_schedule_block DIV.schedule_game_block .loser_name {
+	padding: 0 1px 0 1px;
+	border-left: 2px #fff solid;
+}
+#gen_schedule_block DIV.schedule_game_block .loser_line {
+	padding: 0 1px 0 1px;
+	border-left: 2px #fff solid;
+}
+
+
+/* ------------------------------------------------------------ */
+#gen_schedule_block DIV.schedule_game_block P {
+	margin: 0;
+	padding: 0px;
+	padding-bottom: 3px;
+	font-size: 11px;
+}
+#gen_schedule_block DIV.schedule_game_block A {
+	font-weight: bold;	
+	TEXT-DECORATION: underline
+}
+
+#gen_schedule_block DIV.schedule_game_block_links {
+	text-align: left;
+	font-weight: normal;
+	font-size: 10px;
+	margin-top : 6px;
+	margin-bottom : 0px;
+	padding-left: 7px;
+	text-decoration: none;
+}
+#gen_schedule_block DIV.schedule_game_block_links A {
+	font-weight: bold;	
+	text-decoration: none;
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	font-size: 10px; 
+	color: #999;
+}
+
+.schedule_make_pick {
+	font-weight: bold;
+	padding: 2px;
+	LINE-HEIGHT: 10px;  
+	BORDER: #c8c8c8 1px solid;
+	background: #7E0003;
+	color: #ffffff;		
+	background-image:  url(/images/boxes/title-bg.gif);
+	background-repeat: repeat-x;
+	text-decoration: none;
+}
+
+#sports_calendar {
+	border: #c8c8c8 1px solid;
+	margin-right: 2px;
+	width: 175px;
+}
+
+.sports_calendar_header {
+	background-color: #DFDFDF;
+	color: #222222;
+}
+.sports_calendar_week_days {
+	background-color: #DFDFDF;
+	color: #222222;
+}
+
+#sports_calendar_block {
+	font-size: 11px;
+	padding: 3px;
+}
+
+#sports_calendar DIV.sports_calendar_block A {
+	font-weight: bold;
+}
+
+#sports_calendar TABLE {
+	font-size: 11px;
+	width: 170px;
+	border-top: #c8c8c8 1px solid;
+	border-left: #c8c8c8 1px solid;
+}
+#sports_calendar TABLE TH {
+	font-size: 11px;
+	margin-top: 3px;
+	padding-top: 3px;
+	margin-bottom: 3px;
+	padding-bottom: 3px;
+}
+#sports_calendar A {
+	font-size: 11px;
+	font-weight: bold;
+}
+
+.sports_calendar_today {
+	font-weight: bold;
+	background-color: #DFDFDF;
+	color: #ffffff;
+}
+#sports_calendar .sports_calendar_today A{
+	color: #222222;
+}
+
+
+.sports_calendar_selected {
+	font-weight: bold;
+	background-color: #ECECE4;
+	color: #ffffff;
+}
+#sports_calendar .sports_calendar_selected A{
+	color: #222222;
+	text-decoration: underline;
+}
+
+
+#sports_calendar TABLE TD {
+	font-size: 11px;
+	text-align: center;
+	border-bottom: #c8c8c8 1px solid;
+	border-right: #c8c8c8 1px solid;
+}
+#sports_calendar TABLE TR.sports_calendar_week_days TD {
+	font-size: 11px;
+	font-weight: bold;
+}
+
+#schedule_full_scores {
+	margin-bottom: 25px;
+}
+
+#schedule_full_scores P {
+	text-align:right;
+}
+#schedule_full_scores A {
+	font-size: 11px;
+	color: blue;
+	text-decoration: underline;
+}
+
+#sports_data_select_sport {
+	font-size: 11px;
+	float: right;
+}
+
+#sports_data_select_sport A{
+	font-size: 11px;
+}
+
+.lower_title {
+	font-size: 18px; 
+	margin-bottom: 10px;
+	margin-top: 0;
+}
+
+.header_title {
+	font-size: 16px;
+}
+
+.back_button_custom {
+	text-align: center;
+	font-size: 11px;
+	font-weight: bold;
+	border: 3px double #cccccc;
+	/*width: auto;*/
+	width: 45px;
+	background: url(../images/button_bg.png) repeat-x;
+	padding: 0px 10px;
+	line-height: 20px;
+	margin: 1px 1px 25px 1px;
+}
+.back_button_custom A{
+	font-size: 11px;
+}
+
+/* ------------------------ PAST_PICKS ------------------------ */
+#past_picks TABLE {
+	font-size: 12px;
+	width: 540px;
+	margin: 0 0 20px 0;
+}
+#past_picks .data TH {
+	color: #888; 
+	background-color: #fff; 	
+	text-align: left;
+	padding: 5px 10px 5px 10px;
+}
+#past_picks .data TD {
+	background-color: #eee; 
+	padding: 5px 10px 5px 5px;
+	border-top: solid 2px #666;
+}
+#past_picks .capper_data TH {
+	color: #888; 
+	background-color: #eee; 	
+	text-align: left;
+	padding: 7px 10px 7px 10px;
+	border-top: solid 2px #666;
+}
+#past_picks .capper_data TD {
+	background-color: #eee; 
+	padding: 5px 10px 5px 5px;
+	border-top: solid 1px #ddd;
+}
+#past_picks .capper_data TD A {
+	font-size: 12px; 
+}
+#past_picks .data .event {
+	border-left: solid 1px #ddd;
+}
+#past_picks .data .wl {
+	border-right: solid 1px #ddd;
+}
+#past_picks .comment TD {
+	background-color: #fff; 
+	padding: 5px 10px 30px 5px;
+	border-left: solid 1px #ddd;
+	border-right: solid 1px #ddd;
+	border-bottom: solid 1px #ddd;
+}
+#past_picks .bottom_comment TD {
+	background-color: #fff; 
+	padding: 0px 0px 5px 0px;
+}
+#past_picks TD {
+	font-size: 12px;
+	padding: 5px 10px 5px 10px;
+}
+#past_picks #show_premium_picks .data TD{
+	background-color: #fff; 
+}
+
+
+/* ------------------------ COLORS ------------------------ */
+.green		{ color: green; }
+.green_b	{ color: green; font-weight: bold; }
+.red		{ color: red; }
+.red_b		{ color: red; font-weight: bold; }
+.n			{ font-weight: normal; }
+.b			{ font-weight: bold; }
